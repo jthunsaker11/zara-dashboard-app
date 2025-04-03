@@ -250,5 +250,4 @@ app.layout = html.Div([
         ]),
     ], style={"padding": "0px 30px"})
 ])
-if __name__=='__main__':
-    app.run(debug=True)
+
