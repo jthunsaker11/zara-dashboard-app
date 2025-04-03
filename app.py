@@ -250,4 +250,5 @@ app.layout = html.Div([
         ]),
     ], style={"padding": "0px 30px"})
 ])
+app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 
