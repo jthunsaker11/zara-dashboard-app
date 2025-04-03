@@ -5,7 +5,7 @@ from dash import html, dcc
 import dash_bootstrap_components as dbc
 
 # Load dataset
-zara_df = pd.read_csv("C:/Users/jthun/Downloads/Zara Dashboard Data.csv")
+zara_df = pd.read_csv("Zara Dashboard Data.csv")
 
 # Preprocessing
 zara_df['Revenue'] = zara_df['price'] * zara_df['Sales Volume']
