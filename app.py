@@ -158,6 +158,7 @@ price_total_items = zara_df.groupby('Price_Bin', observed=True).size().reset_ind
 fig_price_total_items = px.bar(price_total_items, x="Price_Bin", y="Total Items", title="Total Items by Price Range")
 
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
+server = app.server
 
 app.layout = html.Div([
     html.Div([
@@ -250,6 +251,6 @@ app.layout = html.Div([
         ]),
     ], style={"padding": "0px 30px"})
 ])
-server = app.server
+
 
 
