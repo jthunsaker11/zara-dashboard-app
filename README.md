@@ -6,7 +6,7 @@ An interactive dashboard built with Dash and Plotly to visualize Zara product sa
 - Interactive charts by promotion and season
 - Product positioning and price range analysis
 - Key KPI summary cards
-- Fully Heroku-deployable
+- Fully Render-deployable
 
 ## Run Locally
 
