@@ -251,6 +251,6 @@ app.layout = html.Div([
         ]),
     ], style={"padding": "0px 30px"})
 ])
-
+server = app.server
 
 
